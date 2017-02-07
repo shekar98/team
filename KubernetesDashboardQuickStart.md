@@ -32,7 +32,7 @@ or more containers that provides a CDAS service.
 
 You may use the dashboard ui to list the various CDAS services and confirm that the desired
 number of pods is running for each service. Typically, you would run one  
-cerebro-planner-worker pod and several cerebro-worker pods depending on your workload needs.  
+cerebro-planner-worker pod and several cerebro-worker pods depending on your workload needs.
   
 For example, a 10-node CDAS cluster would have the following pods:  
 1 canary pod  
