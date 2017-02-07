@@ -40,7 +40,7 @@ For example, a 10-node CDAS cluster would have the following pods:<br />
     - 1 cerebro-planner-worker pod  
     - 9 cerebro-worker pods  
 
-Let's try a few of sample dashboard operations:
+Let's try a few of sample dashboard operations:<br />
 1. Keeping the namespace as 'default', click on 'Deployments' on the left navigation panel.
    Makes sure that all CDAS services are running. This should include cerebro-catalog,
    cerebro-catalog-ui and cerebro-planner-worker.
