@@ -32,7 +32,7 @@ or more containers that provides a CDAS service.
 
 You may use the dashboard ui to list the various CDAS services and confirm that the desired number of pods is running for each service. Typically, you would run one cerebro-planner-worker pod and several cerebro-worker pods depending on your workload needs.<br />
 
-For example, a 10-node CDAS cluster would have the following pods:
+For example, a 10-node CDAS cluster would have the following pods:<br />
     - 1 canary pod  
     - 1 cerebro-catatog pod  
     - 1 cerebro-catalog-ui pod  
@@ -40,8 +40,7 @@ For example, a 10-node CDAS cluster would have the following pods:
     - 1 cerebro-planner-worker pod  
     - 9 cerebro-worker pods  
 
-Let's try a few of sample dashboard operations:
-
+Let's try a few of sample dashboard operations:<br />
 1. Keeping the namespace as 'default', click on 'Deployments' on the left navigation panel.
    Makes sure that all CDAS services are running. This should include cerebro-catalog,
    cerebro-catalog-ui and cerebro-planner-worker.
