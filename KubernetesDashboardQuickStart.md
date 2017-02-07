@@ -40,17 +40,20 @@ For example, a 10-node CDAS cluster would have the following pods:<br />
     - 1 cerebro-planner-worker pod  
     - 9 cerebro-worker pods  
 
-Let's try a few of sample dashboard operations:<br />
-      1. Keeping the namespace as 'default', click on 'Deployments' on the left navigation panel.
-      Makes sure that all CDAS services are running. This should include cerebro-catalog,
-      cerebro-catalog-ui and cerebro-planner-worker.
-      2. Click on 'Pods' on the left navigation panel
-      Make sure that the list is similar to the example above, including the desired number
-      of pods.
-      3. Click on 'Pods'.
-      Scroll to the right of the cerebro-planner-worker pod and click on the icon with small
-      horizontal bars. This will show the logs in a separate tab/window on your browser.
-      The logs are a quick way to detect any issues with the pod.
+Let's try a few of sample dashboard operations:
+
+1. Keeping the namespace as 'default', click on 'Deployments' on the left navigation panel.
+   Makes sure that all CDAS services are running. This should include cerebro-catalog,
+   cerebro-catalog-ui and cerebro-planner-worker.
+
+2. Click on 'Pods' on the left navigation panel
+   Make sure that the list is similar to the example above, including the desired number
+   of pods.
+
+3. Click on 'Pods'.
+   Scroll to the right of the cerebro-planner-worker pod and click on the icon with small
+   horizontal bars. This will show the logs in a separate tab/window on your browser.
+   The logs are a quick way to detect any issues with the pod.
 
 ### Additional Information
 Refer to https://kubernetes.io/docs/ for documentation and tutorials on kubernetes
